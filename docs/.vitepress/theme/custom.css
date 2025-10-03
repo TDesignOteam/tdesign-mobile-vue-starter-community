@@ -1,0 +1,40 @@
+/* Hide icons/markers on the right-side outline */
+.VPDocOutline .outline-link::before {
+  content: none !important;
+  display: none !important;
+}
+
+.VPDocOutline .outline-marker {
+  display: none !important;
+}
+
+.VPDocOutline .outline-link > svg,
+.VPDocOutline .outline-link > i {
+  display: none !important;
+}
+
+.VPDocOutline .outline-link {
+  padding-left: 0 !important;
+}
+
+/* Bright gradient background for logo.svg in dark mode (docs site) */
+
+:root {
+  --app-logo-bg-radius: 12px;
+  --app-logo-bg-padding: 4px; /* conservative for navbar */
+  --app-logo-gradient: linear-gradient(120deg, #41d1ff 0%, #bd34fe 100%);
+}
+
+/* Navbar and any generic usage */
+.dark img[src$="/logo.svg"] {
+  background: var(--app-logo-gradient);
+  border-radius: var(--app-logo-bg-radius);
+  padding: var(--app-logo-bg-padding);
+}
+
+/* Hero logo: allow slightly larger padding and rounded corners */
+.dark .VPHero img[src$="/logo.svg"] {
+  padding: 12px;
+  border-radius: 16px;
+}
+

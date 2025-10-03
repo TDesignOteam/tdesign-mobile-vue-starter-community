@@ -1,0 +1,19 @@
+/* Hide icons/markers on the right-side outline */
+.VPDocOutline .outline-link::before {
+  content: none !important;
+  display: none !important;
+}
+
+.VPDocOutline .outline-marker {
+  display: none !important;
+}
+
+.VPDocOutline .outline-link > svg,
+.VPDocOutline .outline-link > i {
+  display: none !important;
+}
+
+.VPDocOutline .outline-link {
+  padding-left: 0 !important;
+}
+

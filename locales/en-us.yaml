@@ -1,2 +1,214 @@
-global:
-  title: Hello, Tencent Open Source!
+# Page translations
+pages:
+  home:
+    title: Home
+    welcome: Welcome back
+    search: Search
+    content:
+      refresh:
+        pull_down: Pull down to refresh
+        release: Release to refresh
+        refreshing: Refreshing...
+        completed: Refreshed
+    errors:
+      get_content_failed: Failed to fetch content
+      load_failed_retry: Failed to load content, please retry
+      refresh_failed: Refresh failed
+      refresh_failed_retry: Refresh failed, please retry
+    messages:
+      publish_success: Published successfully
+    tabs:
+      recommended: Recommended
+      following: Following
+    ui:
+      error_title: Load Failed
+      empty_title: No Content
+      empty_description: Please check back later
+  search:
+    cancel: Cancel
+    history: History
+    clear_confirm_title: Clear history?
+    clear_confirm_body: This action cannot be undone. Clear all search history?
+    discoveries:
+      title: Discoveries
+  login:
+    title: User Login
+    login: Login
+    verify_and_login: Verify and log in
+    phone_placeholder: Enter phone number
+    password_placeholder: Enter password
+    welcome: Welcome to TDesign
+    verify_login: Login Page (Verification)
+    password_login: Login Page (Password)
+    register_hint: New numbers register on verify
+    phone_format_error: Please enter a valid phone number format
+    send_code_failed: Failed to send verification code, please try again later
+    network_error: Network connection error, please check your network and try again
+    account: Account
+    password: Password
+    account_placeholder: Phone number/Email
+    forgot_password: Forgot password?
+    enter_code: Enter verification code
+    code_sent: Code sent to {phone}
+    code_placeholder: Enter code
+    resend_countdown: "Resend in {seconds}s"
+    agreement_text: Agree to Terms & Conditions
+    other_methods: Other Options
+    verify_code_login: Verification Code
+    password_code_login: Password Login
+    user: User
+  my:
+    title: My Profile
+    settings: Settings
+    edit_profile: Edit Profile
+    language: Language Settings
+    contact_service: Contact Service
+    general_settings:
+      title: General Settings
+      language: Language
+    profile_info: Profile Form Page
+    logged_in_page: Profile Page (Logged In)
+    logged_out_page: Profile Page (Logged Out)
+    settings_page:
+      notifications: Notifications
+      dark_mode: Dark Mode
+      font_size: Font Size
+      playback_settings: Playback Settings
+      account_security: Account Security
+      privacy: Privacy
+    theme:
+      title: Dark Mode
+      light: Light
+      dark: Dark
+    errors:
+      user_not_exists: User not exists
+      save_failed_retry: Save failed, please try again later
+    login_register: Please Login/Register
+    nickname: John Doe
+    constellation: Gemini
+    location: Shenzhen
+    stats:
+      all_posts: All
+      under_review: Review
+      published: Pub
+      drafts: Draft
+    services:
+      title: Recommended Services
+      wechat: WeChat
+      qq: QQ
+      tdoc: TDocs
+      tmap: TMap
+      data_center: DC
+    edit:
+      form:
+        username: Name
+        gender: Gender
+        birthday: Birthday
+        address: Address
+        bio: Bio
+        photo: Photos
+      placeholders:
+        username: Enter username
+        birthday: Select birthday
+        address: Select address
+        bio: Enter a brief bio
+      gender:
+        male: Male
+        female: Female
+        secret: Secret
+      pickers:
+        date_title: Select Date
+        address_title: Select Address
+  publish:
+    title: Publish Page
+    save_draft: Save Draft
+    publish_action: Publish
+    location: Location
+    add_description: Add Desc
+    share_thoughts: Share your thoughts
+    add_tags: Add Tags
+  notice:
+    title: Chat Page
+    today_time: Today 10:00
+    input_placeholder: Type a message...
+    send: Send
+    sending: Sending...
+    notification: Notification
+    errors:
+      send_failed: Failed to send message, please try again
+      network_error: Network connection failed, please check your network and try again
+  talklist:
+    title: Message List Page
+    user_nickname: Username
+    message_content: This is a message
+    no_message: No messages yet
+  datacenter:
+    title: Data Center
+    overview:
+      title: Overview
+      note: Cumulative value as of 12-00
+      views: Views
+      pv: PV
+      uv: UV
+    interaction:
+      title: Interactions
+      views: Views
+      likes: Likes
+      shares: Share
+      favorites: Fav
+      unit: times
+    completion:
+      title: Completion Rate
+    region:
+      title: By Region
+      columns:
+        title: Title
+        global: Global
+        north_china: North
+        east_china: East
+        west_china: West
+        south_china: South
+    chart: Data Chart Page
+
+# Common translations
+common:
+  buttons:
+    submit: Submit
+    cancel: Cancel
+    confirm: OK
+    save: Save
+    login: Login
+    register: Reg
+    send_code: Send
+    info_notification: Info
+    success_notification: Success
+    warning_notification: Warning
+    error_notification: Error
+    refresh: Refresh
+  messages:
+    success: Operation successful
+    error: Operation failed
+    loading: Loading...
+    info: This is a general notification
+    warning: This is a warning that requires user attention
+  errors:
+    load_failed: Load Failed
+    load_failed_retry: Failed to load, please try again later
+  empty:
+    title: No Data
+    description: Try exploring something else
+  language:
+    zh_cn: Chinese
+    en_us: English
+  navigation:
+    message: Messages
+    page_directory: Page Directory
+  search:
+    placeholder: Search for content
+  error:
+    404_title: Page Not Found
+    404_message: Sorry, the page you are looking for does not exist
+    403_title: Access Denied
+    403_message: Sorry, you do not have permission to access this page
+    500_title: Server Error
+    500_message: Sorry, something went wrong on our side. Please try again later

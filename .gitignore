@@ -11,3 +11,7 @@ npm-debug.log*
 .pnpm-debug.log
 
 .idea
+
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache

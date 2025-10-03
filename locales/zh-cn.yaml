@@ -1,2 +1,214 @@
-global:
-  title: 你好，腾讯开源！
+# 页面翻译
+pages:
+  home:
+    title: 首页
+    welcome: 欢迎回来
+    search: 搜索页
+    content:
+      refresh:
+        pull_down: 下拉可以刷新
+        release: 释放立即刷新
+        refreshing: 正在刷新...
+        completed: 刷新完成
+    errors:
+      get_content_failed: 获取内容失败
+      load_failed_retry: 加载内容失败，请重试
+      refresh_failed: 刷新失败
+      refresh_failed_retry: 刷新失败，请重试
+    messages:
+      publish_success: 发布成功
+    tabs:
+      recommended: 推荐
+      following: 我的关注
+    ui:
+      error_title: 加载失败
+      empty_title: 暂无内容
+      empty_description: 稍后再来看看吧
+  search:
+    cancel: 取消
+    history: 历史记录
+    clear_confirm_title: 清空历史记录？
+    clear_confirm_body: 此操作不可恢复，确定要清空所有搜索历史吗？
+    discoveries:
+      title: 搜索发现
+  login:
+    title: 用户登录
+    login: 登录
+    verify_and_login: 验证并登录
+    phone_placeholder: 请输入手机号
+    password_placeholder: 请输入密码
+    welcome: 欢迎登录 TDesign
+    verify_login: 登录注册页（验证登录）
+    password_login: 登录注册页（密码登录）
+    register_hint: 未注册的手机号验证通过后将自动注册
+    phone_format_error: 请输入正确的手机号格式
+    send_code_failed: 发送验证码失败，请稍后重试
+    network_error: 网络连接异常，请检查网络后重试
+    account: 账号
+    password: 密码
+    account_placeholder: 请输入手机号/邮箱
+    forgot_password: 忘记密码？
+    enter_code: 请输入验证码
+    code_sent: 验证码已通过短信发送至 {phone}
+    code_placeholder: 请输入验证码
+    resend_countdown: "{seconds}秒后重发"
+    agreement_text: 同意《协议条款》
+    other_methods: 其他方式
+    verify_code_login: 验证码登录
+    password_code_login: 密码登录
+    user: 用户
+  my:
+    title: 我的
+    settings: 设置
+    edit_profile: 编辑资料
+    language: 语言设置
+    contact_service: 联系客服
+    general_settings:
+      title: 通用设置
+      language: 语言设置
+    profile_info: 个人信息表单页
+    logged_in_page: 个人中心页（已登录）
+    logged_out_page: 个人中心页（未登录）
+    settings_page:
+      notifications: 通知设置
+      dark_mode: 深色模式
+      font_size: 字体大小
+      playback_settings: 播放设置
+      account_security: 账号安全
+      privacy: 隐私
+    theme:
+      title: 深色模式
+      light: 浅色
+      dark: 深色
+    errors:
+      user_not_exists: 用户信息不存在
+      save_failed_retry: 保存失败，请稍后重试
+    login_register: 请先登录/注册
+    nickname: 张三
+    constellation: 双子座
+    location: 深圳
+    stats:
+      all_posts: 全部发布
+      under_review: 审核中
+      published: 已发布
+      drafts: 草稿箱
+    services:
+      title: 推荐服务
+      wechat: 微信
+      qq: QQ
+      tdoc: 腾讯文档
+      tmap: 腾讯地图
+      data_center: 数据中心
+    edit:
+      form:
+        username: 用户名
+        gender: 性别
+        birthday: 生日
+        address: 地址
+        bio: 个人简介
+        photo: 相片墙
+      placeholders:
+        username: 请输入用户名
+        birthday: 请选择生日
+        address: 请选择地址
+        bio: 请输入个人简介
+      gender:
+        male: 男
+        female: 女
+        secret: 保密
+      pickers:
+        date_title: 选择日期
+        address_title: 选择地址
+  publish:
+    title: 发布动态
+    save_draft: 存草稿
+    publish_action: 发布
+    location: 所在位置
+    add_description: 添加描述
+    share_thoughts: 分享你此刻的想法
+    add_tags: 添加标签
+  notice:
+    title: 对话页
+    today_time: 今天 10:00
+    input_placeholder: 输入消息...
+    send: 发送
+    sending: 发送中...
+    notification: 通知
+    errors:
+      send_failed: 发送消息失败，请重试
+      network_error: 网络连接失败，请检查网络后重试
+  talklist:
+    title: 消息列表页
+    user_nickname: 用户昵称
+    message_content: 这是一条消息内容
+    no_message: 暂无消息
+  datacenter:
+    title: 数据中心
+    overview:
+      title: 整体情况
+      note: 截止12-00累计数值
+      views: 浏览量
+      pv: PV
+      uv: UV
+    interaction:
+      title: 互动情况
+      views: 浏览量
+      likes: 点赞量
+      shares: 分享量
+      favorites: 收藏
+      unit: 次
+    completion:
+      title: 完播率
+    region:
+      title: 按区域统计
+      columns:
+        title: 标题
+        global: 全球
+        north_china: 华北
+        east_china: 华东
+        west_china: 华西
+        south_china: 华南
+    chart: 数据图表页
+
+# 通用翻译
+common:
+  buttons:
+    submit: 提交
+    cancel: 取消
+    confirm: 确认
+    save: 保存
+    login: 登录
+    register: 注册
+    send_code: 发送验证码
+    info_notification: 普通通知
+    success_notification: 成功通知
+    warning_notification: 警示通知
+    error_notification: 错误通知
+    refresh: 刷新
+  messages:
+    success: 操作成功
+    error: 操作失败
+    loading: 加载中...
+    info: 这是一条普通通知信息
+    warning: 这是一条需要用户关注到的警示通知
+  errors:
+    load_failed: 加载失败
+    load_failed_retry: 加载失败，请稍后重试
+  empty:
+    title: 暂无数据
+    description: 去看看别的吧
+  language:
+    zh_cn: 中文
+    en_us: English
+  navigation:
+    message: 消息
+    page_directory: 页面目录
+  search:
+    placeholder: 请搜索你想要的内容
+  error:
+    404_title: 页面未找到
+    404_message: 抱歉，您访问的页面不存在
+    403_title: 访问被拒绝
+    403_message: 抱歉，您没有权限访问此页面
+    500_title: 服务器开小差了
+    500_message: 抱歉，服务器出现异常，请稍后再试

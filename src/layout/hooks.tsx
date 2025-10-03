@@ -1,16 +1,11 @@
 import { useI18n } from 'vue-i18n'
-import { stroagePrefix } from '@/config'
-import { useLayoutStoreHook } from '@/store/layout'
+import { storagePrefix } from '@/config'
+import { setLanguage } from '@/plugins/i18n'
 import { useGlobal, useStorage } from '@/utils/global'
 
 export function useLayoutHook() {
   const { t, locale } = useI18n()
   const { $storage } = useGlobal()
-
-  const layoutStore = useLayoutStoreHook()
-  function add() {
-    layoutStore.ADD_COUNT()
-  }
 
   const localeState = reactive({
     show: false,
@@ -21,21 +16,21 @@ export function useLayoutHook() {
     { label: 'English (US)', value: 'en-us' },
   ]
 
-  function onConfirm(val: string[]) {
+  async function onConfirm(val: string[]) {
+    const newLocale = val[0]
     localeState.show = false
-    // vue-i18n、storageConfig、localStorage 三处同步更新
-    locale.value = val[0]
-    $storage.locale = val[0]
-    useStorage().setItem(`${stroagePrefix()}config`, $storage)
+    await setLanguage(newLocale)
+
+    // 更新存储
+    $storage.locale = newLocale
+    useStorage().setItem(`${storagePrefix()}config`, $storage)
   }
 
   return {
     locale,
-    layoutStore,
     localeState,
     localeOptions,
     t,
-    add,
     onConfirm,
   }
 }

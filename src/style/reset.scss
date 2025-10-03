@@ -70,15 +70,3 @@ textarea {
   line-height: inherit;
   color: inherit;
 }
-
-// 清除浮动，上古秘术了属于是
-.clearfix {
-  &::after {
-    display: block;
-    height: 0;
-    clear: both;
-    font-size: 0;
-    visibility: hidden;
-    content: ' ';
-  }
-}

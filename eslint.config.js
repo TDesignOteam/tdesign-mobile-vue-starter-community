@@ -4,6 +4,7 @@ export default antfu(
   {
     formatters: true,
     vue: true,
+    ignores: ['docs/**'], // 忽略 docs 目录下的所有文件
     rules: {
       // 全局允许 console.log()，为方便调试，警告即可
       'no-console': 'warn',

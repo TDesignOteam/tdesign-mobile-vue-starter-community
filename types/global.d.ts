@@ -35,6 +35,8 @@ declare global {
     $config: GlobalConfig
     /** 缓存配置，响应式 */
     $storage: Reactive<StorageConfig>
+    /** 统一消息提示 */
+    $message: import('../src/plugins/message').UnifiedMessageApi
   }
 }
 

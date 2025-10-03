@@ -54,7 +54,7 @@
   "editor.formatOnPaste": true,
   "editor.guides.bracketPairs": "active",
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "files.autoSave": "off",
+  "files.autoSave": "afterDelay",
   "git.confirmSync": false,
   "files.associations": {
     "editor.snippetSuggestions": "top"

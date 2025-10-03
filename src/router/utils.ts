@@ -2,7 +2,8 @@ import type { RouterHistory } from 'vue-router'
 import { createWebHashHistory, createWebHistory } from 'vue-router'
 
 function getRouterMode(mode: string): RouterHistory {
-  return mode === 'hash' ? createWebHashHistory('') : createWebHistory('')
+  const base = import.meta.env.BASE_URL || '/'
+  return mode === 'hash' ? createWebHashHistory(base) : createWebHistory(base)
 }
 
 export {

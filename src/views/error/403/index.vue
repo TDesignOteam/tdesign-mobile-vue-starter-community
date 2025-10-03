@@ -1,13 +1,11 @@
 <script setup lang='ts'>
+import ErrorPage from '../ErrorPage.vue'
+
 defineOptions({
   name: '403',
 })
 </script>
 
 <template>
-  <h3>403 Forbidden</h3>
+  <ErrorPage code="403" />
 </template>
-
-<style lang='scss' scoped>
-
-</style>

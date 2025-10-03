@@ -1,0 +1,15 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deploy Placeholder">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#41d1ff"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#bd34fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="360" rx="12" fill="url(#g4)"/>
+  <g fill="#ffffff" fill-opacity="0.95">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="36" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+      DEPLOY PLACEHOLDER
+    </text>
+  </g>
+</svg>

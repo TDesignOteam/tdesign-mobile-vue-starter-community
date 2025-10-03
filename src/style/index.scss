@@ -1,4 +1,50 @@
-/** 这里放一些全局的 css 样式及 cssvar */
-:root {
-  --tmv-bg-color: #f6f6f6;
+.t-dropdown-menu::after {
+  display: none !important;
+}
+
+// 设置 dropdown-menu 的背景为透明
+.t-dropdown-menu {
+  background: transparent !important;
+}
+
+// 深色模式下去掉 dropdown-menu 的背景
+:root[theme-mode='dark'] .t-dropdown-menu {
+  background: transparent !important;
+}
+
+.auth-primary-button {
+  margin: 16px;
+  width: calc(100% - 32px);
+  height: 48px;
+  border-radius: 6px;
+}
+
+.auth-divider {
+  width: 1px;
+  background-color: #e7e7e7;
+}
+
+.t-loading__gradient-conic {
+  transform: none !important;
+  transform-origin: center center !important;
+}
+
+.auth-divider--24 {
+  height: 24px;
+}
+
+.auth-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.auth-input-container {
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.t-input {
+  padding: 0 16px !important;
+  background-color: transparent !important;
 }

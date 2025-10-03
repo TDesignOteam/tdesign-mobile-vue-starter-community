@@ -174,6 +174,18 @@
 
 - 在 `.vue` 空文件里输入 `vue` 可弹出代码片段，快速搭建基础文件结构（仅限 `vscode`）
 
+### 🧪 前端 Mock（MSW）
+
+项目内置 [MSW](https://mswjs.io) 用于在浏览器端拦截 `fetch`/XHR 请求并返回模拟数据。
+
+- 开启：
+  - 开发：在 `.env.local` 设置 `VITE_MSW=true`，或在控制台执行 `window.__MSW_ENABLED__=true` 后刷新。
+  - 生产：同样设置 `VITE_MSW=true` 并确保 `public/mockServiceWorker.js` 已随站点发布。
+- 关闭：将开关设为 `false` 或移除，刷新页面。
+- 约定：
+  - handlers 位于 `src/mocks/handlers.ts`，已覆盖 `/api` 开头接口（使用 `*/api/...` 通配）。
+  - 启动逻辑在 `src/mocks/index.ts`，于 `src/main.ts` 初始化阶段调用。
+
 ## 📑 Git 提交规范
 
 以下基于 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md#git-commit-message-convention) 提交规范编写

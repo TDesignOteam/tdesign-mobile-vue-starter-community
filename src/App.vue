@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import enConfig from 'tdesign-mobile-vue/es/locale/en_US'
 import zhConfig from 'tdesign-mobile-vue/es/locale/zh_CN'
-
+import { computed, onBeforeMount } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useGlobal } from './utils/global'
 

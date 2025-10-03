@@ -1,13 +1,13 @@
 {
   "*.{js,jsx,ts,tsx}": [
-    "eslint --cache --fix"
+    "eslint --cache --fix --ignore-pattern public/mockServiceWorker.js"
   ],
   "{!(package)*.json,*.code-snippets,.!({browserslist,npm,nvm})*rc}": [
     "eslint --cache --fix"
   ],
   "package.json": ["eslint --cache --fix"],
   "*.vue": [
-    "eslint --cache --fix"
+    "eslint --cache --fix --ignore-pattern public/mockServiceWorker.js"
   ],
   "*.md": ["eslint --cache --fix"]
 }

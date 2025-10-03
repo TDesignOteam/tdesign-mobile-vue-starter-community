@@ -1,0 +1,35 @@
+.edit-page {
+  background-color: var(--td-bg-color-container);
+  padding-bottom: calc(6.4vw + 80px);
+  overflow-x: hidden;
+}
+
+.save-button-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  opacity: 1;
+  z-index: 10;
+}
+
+.save-button {
+  width: 100%;
+  height: 48px;
+  border-radius: 6px;
+  background: #0052d9;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+@supports (padding: max(0px)) {
+  .edit-page {
+    padding-bottom: max(80px, calc(80px + env(safe-area-inset-bottom)));
+  }
+}
+

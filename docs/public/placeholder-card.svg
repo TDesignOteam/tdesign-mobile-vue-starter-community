@@ -1,0 +1,14 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Card Placeholder">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#41d1ff"/>
+      <stop offset="100%" stop-color="#bd34fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="16" fill="url(#g2)"/>
+  <g fill="#ffffff" fill-opacity="0.9">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="28" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+      CARD PLACEHOLDER
+    </text>
+  </g>
+</svg>
