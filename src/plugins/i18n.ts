@@ -37,6 +37,9 @@ const locales = {
   },
 }
 
+/** 仅迎合 `lokalise.i18n-ally` 插件，并无实际意义 */
+export const $t = (val: string) => val
+
 // 🤔 此处要不要写一个函数，用来专门翻译国际化，避免某些语言翻译不全呢？？
 
 export const i18n: I18n = createI18n({

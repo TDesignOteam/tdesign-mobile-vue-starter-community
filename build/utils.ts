@@ -55,6 +55,7 @@ function processEnv(envConf: Record<string, any>): VITE_ENV {
     VITE_PORT: 4399,
     VITE_BASE_PATH: '',
     VITE_ROUTER_MODE: '',
+    VITE_API_BASE_URL: '',
   }
 
   // logger.info(envConf)
@@ -127,7 +128,10 @@ function getDirSize(dir: string, ignore?: RegExp): number {
     }
   }
 
-  calculateSize(dir)
+  if (fs.existsSync(dir)) {
+    calculateSize(dir)
+  }
+
   return totalSize
 }
 

@@ -1,2 +1,156 @@
 global:
   title: 你好，腾讯开源！
+menus:
+  catalog: 页面目录
+  fzf: 404 页面
+  fzt: 403 页面
+  fzz: 500 页面
+  home: 首页
+  info: 个人中心
+  infoLogin: 个人中心-已登录
+  login: 登录页
+  message: 消息
+  mine: 我的
+  publish: 发布页
+  search: 搜索页
+  setting: 设置
+page403:
+  btn: 返回首页
+  msg: 抱歉，您没有权限访问此页面
+page404:
+  msg: 抱歉，您访问的页面不存在或已被删除
+page500:
+  msg: 抱歉，服务器出错啦
+pageChat:
+  btnSend: 发送
+  plhInput: 请输入
+  unknown: 未知联系人
+pageDataCenter:
+  area:
+    ec: 华东
+    global: 全球
+    label: 标题
+    nc: 华北
+    sc: 华南
+    title: 按区域统计
+  compRete: 完播率
+  general:
+    pv: PV
+    time1: 截止
+    time2: 累计数值
+    title: 整体情况
+    uv: UV
+    views: 浏览量
+  interaction:
+    likes: 点赞量
+    shares: 分享量
+    stars: 收藏
+    title: 互动情况
+    unit: 次
+    views: 浏览量
+  title: 数据中心
+pageHome:
+  btnPub: 发布
+  empty: 没有数据
+  load:
+    loaded: 加载完成
+    loading: 加载中
+    pull: 下拉加载
+    release: 松开加载
+  search: 请搜索你想要的内容
+  tabFollow: 我的关注
+  tabRecom: 推荐
+pageInfo:
+  LAddress: 地址
+  LBio: 个人简介
+  LBirth: 生日
+  LPhoto: 相片墙
+  LSex: 性别
+  LUsername: 用户名
+  MsageFault: 保存失败
+  MsaveSuccess: 保存成功
+  SAddress: 选择地址
+  SDate: 选择日期
+  btnSave: 保存
+  plh:
+    address: 请选择地址
+    bio: 请输入个人简介
+    birthday: 请选择生日
+    username: 请输入用户名
+  sexF: 女
+  sexM: 男
+  sexS: 保密
+  valid:
+    address: 请选择地址
+    bio: 请输入个人简介
+    birthday1: 请选择生日
+    birthday2: 请选择一个有效的生日日期
+    photo: 最多上传12张照片
+    sex: 请选择性别
+    username1: 用户名不能为空
+    username2: 用户名只能包含中文、英文、数字、下划线和空格
+pageLogin:
+  LAccount: 账号
+  LPassword: 密码
+  TFind: 找回密码
+  TForget: 忘记密码
+  TOther: 其他方式
+  TPhone: 未注册的手机号验证通过后将自动注册
+  TTerms: 同意《协议条款》
+  TVerifyCode: 验证码已通过短信发送至
+  btnLogin: 登录
+  btnPwd: 密码登录
+  btnSendVer: 发送验证码
+  btnSendVerWait: 秒后重发
+  btnVer: 验证码登录
+  btnVerLogin: 验证并登录
+  msgLoginSucces: 登录成功
+  plhAccount: 请输入手机号/邮箱
+  plhPassword: 请输入密码
+  title1: 欢迎登录 TDesign
+  title2: 请输入验证码
+pageMessage:
+  title: 全部消息
+pageMine:
+  funcLogout: 退出登录
+  funcService: 联系客服
+  funcSetting: 设置
+  msgLogout: 退出登录成功
+  pubAll: 全部发布
+  pubDrafts: 草稿箱
+  pubPublish: 已发布
+  pubReview: 审核中
+  serDataCenter: 数据中心
+  serQQ: QQ
+  serTDoc: 腾讯文档
+  serTMap: 腾讯地图
+  serTitle: 推荐服务
+  serWechat: 微信
+  title: 我的
+  userUnlogged: 请先登录/注册
+pagePublish:
+  LDesc: 添加描述
+  LLabel: 添加标签
+  LLocate: 所在位置
+  btnPub: 发布
+  btnSave: 存草稿
+  msgFile1: 文件类型错误，仅支持图片格式
+  msgFile2: 文件大小不能超过 3MB
+  msgSuccess: 发布成功
+  plhDesc: 分享你此刻的想法
+  title: 发布动态
+pageSearch:
+  LFind: 搜索发现
+  LHistory: 历史记录
+  btnCancel: 取消
+  placeholder: 请搜索你想要的内容
+  title: 搜索
+pageSetting:
+  account: 账号安全
+  dark: 深色模式
+  font: 字体大小
+  general: 通用设置
+  language: 切换语言
+  notify: 通知设置
+  play: 播放设置
+  privacy: 隐私

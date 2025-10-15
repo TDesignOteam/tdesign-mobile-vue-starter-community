@@ -14,18 +14,18 @@ function getGlobalConfig<K extends keyof GlobalConfig>(k: K): GlobalConfig[K] {
 }
 
 /** 存储 key 前缀 */
-const stroagePrefix = () => getGlobalConfig('storageNS')
+const stroagePrefix = () => getGlobalConfig('storageNS') ?? ''
 
 /** 注入缓存配置项 */
 function injectStorageConfig(app: App) {
   const { getItem, setItem } = useStorage()
   // 当前个性化配置较少，直接扁平化即可
-  let storage = getItem<StorageConfig>(`${stroagePrefix()}config`)
+  let storage = getItem<StorageConfig>(`config`)
   if (!storage) {
     storage = { locale: getGlobalConfig('locale') }
   }
 
-  setItem(`${stroagePrefix()}config`, storage)
+  setItem(`config`, storage)
 
   // 💡 此处要将其转为响应式，否则动态切换语言的时候不会生效
   ;(app.config.globalProperties as unknown as GlobalProperties).$storage = toReactive(storage)

@@ -64,4 +64,10 @@ export default antfu(
       }],
     },
   },
+  {
+    files: ['**/*.md'],
+    rules: {
+      'format/prettier': 'off',
+    },
+  },
 )

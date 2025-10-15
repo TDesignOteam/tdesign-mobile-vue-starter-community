@@ -1,0 +1,16 @@
+diff --git a/es/textarea/textarea.d.ts b/es/textarea/textarea.d.ts
+index d1c0a34977721301d6542fa4d3be67fca9d06774..72ab271a169b873c384f4d899508d15840453580 100644
+--- a/es/textarea/textarea.d.ts
++++ b/es/textarea/textarea.d.ts
+@@ -144,6 +144,10 @@ declare const _default: import("vue").DefineComponent<{
+     allowInputOverMax: boolean;
+     autofocus: boolean;
+     cursorColor: string;
+-    autosize: boolean;
++    // 修复类型提示
++    autosize: boolean | {
++        minRows?: number;
++        maxRows?: number;
++    };
+ }, {}>;
+ export default _default;

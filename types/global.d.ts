@@ -7,6 +7,14 @@ declare global {
     VITE_PORT: number
     VITE_BASE_PATH: string
     VITE_ROUTER_MODE: string
+    VITE_API_BASE_URL: string
+  }
+
+  /** Mock 数据配置 */
+  interface MockModule {
+    url: string
+    method: 'GET' | 'POST'
+    response: (params: { query: URLSearchParams, body: any }) => any
   }
 
   /** 项目全局配置，对应 `public/config.json` */
@@ -35,6 +43,29 @@ declare global {
     $config: GlobalConfig
     /** 缓存配置，响应式 */
     $storage: Reactive<StorageConfig>
+  }
+
+  /** 全局 HTTP 请求响应体，后端统一响应结构 */
+  interface BaseHttpResp<T = any> {
+    code: number
+    message: string
+    data: T
+    /** 分页查询，条目总数 */
+    total?: number
+    success: boolean
+  }
+}
+
+// https://router.vuejs.org/guide/advanced/meta.html#TypeScript
+declare module 'vue-router' {
+  // 扩展路由元信息类型
+  interface RouteMeta {
+    title?: string
+    i18n?: string
+    hideHeader?: boolean
+    showFooter?: boolean
+    showBackground?: boolean
+    backgroundColor?: string
   }
 }
 

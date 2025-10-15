@@ -1,2 +1,160 @@
 global:
   title: Hello, Tencent Open Source!
+menus:
+  catalog: Catalog
+  fzf: 404 Page
+  fzt: 403 Page
+  fzz: 500 Page
+  home: Home
+  info: Profile
+  infoLogin: Profile-Login
+  login: Login page
+  message: Messages
+  mine: Mine
+  publish: Publishing Page
+  search: Search
+  setting: Setting
+page403:
+  btn: Back Home
+  msg: Sorry, you do not have permission to access this page
+page404:
+  msg: Sorry, the page you visited does not exist or has been deleted
+page500:
+  msg: Sorry, there was an error in the server
+pageChat:
+  btnSend: Send
+  plhInput: Input...
+  unknown: Unknown User
+pageDataCenter:
+  area:
+    ec: East China
+    global: Global
+    label: Title
+    nc: North China
+    sc: South China
+    title: Statistics by region
+  compRete: Complete rate
+  general:
+    pv: PV
+    time1: Cumulative value as of
+    time2: ' '
+    title: Overall
+    uv: UV
+    views: Views
+  interaction:
+    likes: Likes
+    shares: Shares
+    stars: Stars
+    title: Interaction
+    unit: times
+    views: Views
+  title: Data Center
+pageHome:
+  btnPub: New
+  empty: No data
+  load:
+    loaded: Loading completed
+    loading: Loading
+    pull: Pull down to load
+    release: Release load
+  search: Search for what you want
+  tabFollow: Follows
+  tabRecom: Recommend
+pageInfo:
+  LAddress: Address
+  LBio: Bio
+  LBirth: Birthday
+  LPhoto: Photo Wall
+  LSex: Sex
+  LUsername: Username
+  MsageFault: Saving failed
+  MsaveSuccess: Save successfully
+  SAddress: Select an address
+  SDate: Select a date
+  btnSave: Save
+  plh:
+    address: Select an address
+    bio: Enter your profile
+    birthday: Select a birthday
+    username: Enter your username
+  sexF: Female
+  sexM: Male
+  sexS: Secret
+  valid:
+    address: Please select an address
+    bio: Please enter your profile
+    birthday1: Please select a birthday
+    birthday2: Please select a valid date of birthday
+    photo: Upload up to 12 photos
+    sex: Please choose gender
+    username1: Username cannot be empty
+    username2: >-
+      Usernames can only contain Chinese, English, numbers, underscores and
+      spaces
+pageLogin:
+  LAccount: Account
+  LPassword: Password
+  TFind: Retrieve
+  TForget: Forget the password?
+  TOther: Other
+  TPhone: >-
+    Unregistered mobile phone number will be automatically registered after
+    verification.
+  TTerms: Agree "The Agreement"
+  TVerifyCode: The verification code has been sent to
+  btnLogin: Login
+  btnPwd: Password
+  btnSendVer: Send Ver. Code
+  btnSendVerWait: sec. Try again
+  btnVer: Verify Code
+  btnVerLogin: Verify and Login
+  msgLoginSucces: Login successfully
+  plhAccount: Phone / Email
+  plhPassword: Enter your password
+  title1: Welcome to TDesign
+  title2: Enter the verifiy code
+pageMessage:
+  title: All Messages
+pageMine:
+  funcLogout: Logout
+  funcService: Customer Service
+  funcSetting: Settings
+  msgLogout: Log out successfully
+  pubAll: All Published
+  pubDrafts: Drafts
+  pubPublish: Published
+  pubReview: Under Review
+  serDataCenter: Data Center
+  serQQ: QQ
+  serTDoc: Tencent Doc.
+  serTMap: Tencent Map
+  serTitle: Recommend
+  serWechat: WeChat
+  title: Mine
+  userUnlogged: Login / Register
+pagePublish:
+  LDesc: Description
+  LLabel: Tag
+  LLocate: Location
+  btnPub: Publish
+  btnSave: Save Draft
+  msgFile1: File type error, only support image
+  msgFile2: File size cannot exceed 3MB
+  msgSuccess: Success
+  plhDesc: Share your thoughts at this moment
+  title: Publish
+pageSearch:
+  LFind: Discover
+  LHistory: History
+  btnCancel: Cancel
+  placeholder: Search for what you want
+  title: Search
+pageSetting:
+  account: Account
+  dark: Dark Mode
+  font: Font size
+  general: General
+  language: Switch language
+  notify: Notification
+  play: Playback
+  privacy: Privacy
