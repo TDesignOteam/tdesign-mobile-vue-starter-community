@@ -1,16 +1,12 @@
 {
-  "name": "tdesign-mobile-vue",
+  "name": "tdesign-mobile-vue-starter-community",
   "type": "module",
   "version": "0.0.1",
-  "private": false,
-  "author": {
-    "name": "hikari",
-    "email": "1803703552@qq.com",
-    "url": "https://github.com/liuyax0818"
-  },
+  "private": true,
+  "author": "tdesign",
   "repository": {
     "type": "git",
-    "url": "https://cnb.cool/hikari0818/tdesign-mobile-vue-starter-community.git"
+    "url": "git+https://github.com/TDesignOteam/tdesign-mobile-vue-starter-community.git"
   },
   "engines": {
     "node": "^20.9.0 || >=22.0.0",
@@ -40,7 +36,7 @@
     "js-cookie": "^3.0.5",
     "pinia": "^3.0.3",
     "tdesign-icons-vue-next": "^0.3.7",
-    "tdesign-mobile-vue": "^1.10.1",
+    "tdesign-mobile-vue": "^1.13.0",
     "vue": "^3.5.17",
     "vue-i18n": "^11.1.9",
     "vue-router": "^4.5.1",
@@ -88,9 +84,6 @@
       "@parcel/watcher",
       "esbuild",
       "vue-demi"
-    ],
-    "patchedDependencies": {
-      "tdesign-mobile-vue@1.10.1": "patches/tdesign-mobile-vue@1.10.1.patch"
-    }
+    ]
   }
 }
